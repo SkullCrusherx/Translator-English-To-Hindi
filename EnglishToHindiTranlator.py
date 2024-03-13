@@ -5,8 +5,6 @@ import tkinter.messagebox as messagebox
 root = Tk()
 root.geometry('500x500')
 root.title('English To Hindi Tranlator')
-path = "C:\\Users\\Argasia\\PycharmProjects\\pythonProject\\translate.ico"
-root.iconbitmap(path)
 
 def btn():
     translator = Translator()
