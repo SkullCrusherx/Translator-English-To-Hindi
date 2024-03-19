@@ -1,7 +1,7 @@
 from googletrans import Translator
 from tkinter import *
-
 import tkinter.messagebox as messagebox
+
 root = Tk()
 root.geometry('500x500')
 root.title('English To Hindi Tranlator')
@@ -14,7 +14,6 @@ def btn():
     sublime = str(out.text)
     filed2.delete("1.0", "end")  # Clear the existing text in the Text widget
     filed2.insert("1.0", sublime)
-
 
 def copy_text():
     label_text = filed2.get("1.0", END).strip()
