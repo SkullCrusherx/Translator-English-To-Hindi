@@ -6,7 +6,7 @@ root = Tk()
 root.geometry('500x500')
 root.title('English To Hindi Tranlator')
 
-def btn():
+def btn(): #translate the filled text
     translator = Translator()
     input_text = text.get("1.0", "end-1c")  # Retrieve the text from the text area
     out = translator.translate(input_text, dest='hi')
@@ -15,7 +15,7 @@ def btn():
     filed2.delete("1.0", "end")  # Clear the existing text in the Text widget
     filed2.insert("1.0", sublime)
 
-def copy_text():
+def copy_text(): #copy the tranlated text
     label_text = filed2.get("1.0", END).strip()
     if label_text:
         # Copy the text to the clipboard
