@@ -6,3 +6,4 @@ Hello Guys This hindi to english Tranlator...
 both install first then use it i also provide exe and code also u can modified
 
 
+
